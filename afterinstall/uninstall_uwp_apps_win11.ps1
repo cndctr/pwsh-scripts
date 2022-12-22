@@ -3,9 +3,9 @@ Write-Verbose -Message 'Removing UWP apps' -Verbose
 # create a list of provisioned applications to be removed
 $UWPApps = @(
 	"Microsoft.549981C3F5F10"
+	"Clipchamp.Clipchamp"
 	"Microsoft.BingNews"
 	"Microsoft.BingWeather"
-	"Clipchamp.Clipchamp"
 	"Microsoft.GetHelp"
 	"Microsoft.Getstarted"
 	"Microsoft.Microsoft3DViewer"
@@ -17,7 +17,8 @@ $UWPApps = @(
 	"Microsoft.People"
 	"Microsoft.Wallet"
 	"Microsoft.SkypeApp"
-	"microsoft.windowscommunicationsapps"
+	"Microsoft.Todos"
+	"microsoft.Windowscommunicationsapps"
 	"Microsoft.WindowsFeedbackHub"
 	"Microsoft.WindowsMaps"
 	"Microsoft.WindowsSoundRecorder"
